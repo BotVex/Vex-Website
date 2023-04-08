@@ -1,14 +1,15 @@
 .footer {
     width: 100%;
     background-color: var(--foreground);
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
+    padding: 10px 50px;
     display: flex;
     justify-content: space-evenly;
+    position: relative;
+    bottom: 0;
 }
 
 .footer-left, .footer-right {
+    width: 50%;
     color: var(--heading-color);
     font-family: 'Fredoka', sans-serif;
 }
@@ -16,4 +17,10 @@
 .footer-left p, .footer-right p {
     color: var(--text-color);
     font-family: 'Poppins', sans-serif;
+}
+
+.footer-wave {
+    fill: var(--foreground);
+    background-color: transparent;
+    display: block;
 }

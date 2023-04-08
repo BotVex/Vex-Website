@@ -1,0 +1,49 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro h1 {
+    color: var(--heading-color);
+    font-family: 'Fredoka', sans-serif;
+}
+
+.intro p {
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: var(--foreground);
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12pt;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 300ms ease;
+}
+
+.buttons button:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.buttons button:active {
+    background-color: var(--middleground);
+}
+
+.discord-color {
+    color: var(--discord-color);
+}
+
+.discord-color::selection {
+    color: white;
+    background-color: var(--discord-color);
+}

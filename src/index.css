@@ -9,6 +9,16 @@
   outline: none;
 }
 
+::-moz-selection {
+  color: var(--background);
+  background: var(--foreground);
+}
+
+::selection {
+  color: var(--background);
+  background: var(--foreground);
+}
+
 html, body, #root {
   width: 100%;
   height: 100%;
