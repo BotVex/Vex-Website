@@ -1,6 +1,8 @@
+import React from "react"
+
 import "./css/Intro.css"
 
-const Intro = () => {
+const Intro: React.FC = () => {
     const redirectToInvitePage = () => {
         window.location.href = " https://discord.com/oauth2/authorize?client_id=783716882896912405&permissions=1634200972535&scope=applications.commands%20bot"
     }

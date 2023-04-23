@@ -1,9 +1,11 @@
+import React from "react";
+
 import Features from "./Features";
 import Intro from "./Intro";
 
 import "./css/Main.css"
 
-const Main = () => {
+const Main: React.FC = () => {
     return (
         <div className="main">
             <Intro></Intro>
