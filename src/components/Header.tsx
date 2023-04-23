@@ -3,7 +3,7 @@ import React from "react";
 import "./css/Header.css"
 import Logo from "./Logo"
 
-const Header = () => {
+const Header: React.FC = () => {
     return (
         <div className="header">
             <div className="header-left">
