@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Poppins&display=swap');
-@import "./globals.scss";
+@use "./globals.scss";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Poppins&display=swap&family=Black+Ops+One&display=swap');
 
 * {
   margin: 0;
@@ -9,14 +9,9 @@
   outline: none;
 }
 
-::-moz-selection {
-  color: var(--background);
-  background: var(--foreground);
-}
-
 ::selection {
-  color: var(--background);
-  background: var(--foreground);
+  color: globals.$background;
+  background: globals.$foreground;
 }
 
 html, body, #root {
@@ -25,5 +20,5 @@ html, body, #root {
 }
 
 body {
-  background-color: var(--background);
+  background-color: globals.$background;
 }

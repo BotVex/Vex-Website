@@ -1,3 +1,5 @@
+@use "../globals.scss";
+
 .feature {
     width: 100%;
     display: flex;
@@ -15,12 +17,12 @@
 }
 
 .feature-info h2 {
-    color: var(--heading-color);
+    color: globals.$heading-color;
     font-family: 'Fredoka', sans-serif;
 }
 
 .feature-info p {
-    color: var(--text-color);
+    color: globals.$text-color;
     font-family: 'Poppins', sans-serif;
 }
 

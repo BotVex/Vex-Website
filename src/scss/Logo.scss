@@ -1,5 +1,7 @@
+@use "../globals.scss";
+
 .logo {
-    color: var(--heading-color);
+    color: globals.$heading-color;
     font-family: 'Fredoka', sans-serif;
     user-select: none;
     font-size: 28pt;
