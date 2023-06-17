@@ -3,7 +3,7 @@ import React from "react";
 import Features from "./Features";
 import Intro from "./Intro";
 
-import "./css/Main.css"
+import "../scss/Main.scss"
 
 const Main: React.FC = () => {
     return (

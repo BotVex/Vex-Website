@@ -1,6 +1,6 @@
 import React from "react"
 
-import "./css/Intro.css"
+import "../scss/Intro.scss"
 
 const Intro: React.FC = () => {
     const redirectToInvitePage = () => {
