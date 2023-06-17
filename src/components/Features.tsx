@@ -2,7 +2,7 @@ import React from "react";
 
 import Feature, { IFeature } from "./Feature";
 
-import "./css/Features.css"
+import "../scss/Features.scss"
 
 import  Roleplay from "../assets/roleplay.png"
 

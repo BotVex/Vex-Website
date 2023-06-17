@@ -1,3 +1,10 @@
+@use "../globals.scss";
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -7,23 +14,23 @@
 }
 
 .intro h1 {
-    color: var(--heading-color);
+    color: globals.$heading-color;
     font-family: 'Fredoka', sans-serif;
 }
 
 .intro p {
-    color: var(--text-color);
+    color: globals.$text-color;
     font-family: 'Poppins', sans-serif;
     font-size: 10pt;
 }
 
-.buttons {
+.intro-buttons {
     margin-top: 20px;
 }
 
-.buttons button {
-    background-color: var(--foreground);
-    color: var(--text-color);
+.intro-buttons button {
+    background-color: globals.$foreground;
+    color: globals.$text-color;
     font-family: 'Poppins', sans-serif;
     font-size: 12pt;
     padding: 10px;
@@ -31,19 +38,19 @@
     transition: all 300ms ease;
 }
 
-.buttons button:hover {
+.intro-buttons button:hover {
     transform: scale(1.1, 1.1);
 }
 
-.buttons button:active {
-    background-color: var(--middleground);
+.intro-buttons button:active {
+    background-color: globals.$middleground;
 }
 
 .discord-color {
-    color: var(--discord-color);
+    color: globals.$discord-color;
 }
 
 .discord-color::selection {
     color: white;
-    background-color: var(--discord-color);
+    background-color: globals.$discord-color;
 }

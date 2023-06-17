@@ -1,8 +1,10 @@
+@use "../globals.scss";
+
 .features {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 50px;
     width: 100%;
-    background-color: var(--middleground);
+    background-color: globals.$middleground;
 }

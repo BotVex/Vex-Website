@@ -1,0 +1,7 @@
+@use "../globals.scss";
+
+.wave-bottom {
+    fill: globals.$middleground;
+    background-color: globals.$background;
+    display: block;
+}

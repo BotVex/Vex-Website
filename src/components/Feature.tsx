@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./css/Feature.css";
+import "../scss/Feature.scss";
 
 
 export interface IFeature {

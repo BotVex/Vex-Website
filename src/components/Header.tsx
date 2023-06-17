@@ -1,7 +1,9 @@
-import React from "react";
+import React from "react"
+import { Link } from "react-router-dom"
 
-import "./css/Header.css"
+import "../scss/Header.scss"
 import Logo from "./Logo"
+
 
 const Header: React.FC = () => {
     return (
@@ -11,9 +13,9 @@ const Header: React.FC = () => {
                     <Logo></Logo>
                 </a>
                 <div className="items">
-                    <p>Comandos</p>
-                    <p>Funções</p>
-                    <p>Sobre</p>
+                    <Link to="commands">Comandos</Link>
+                    {/* <Link to="commands">Funções</Link> */}
+                    <Link to="about">Sobre</Link>
                 </div>
             </div>
             <div className="header-right">
