@@ -1,0 +1,38 @@
+@use "../globals.scss";
+
+.ab-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+}
+
+.ab-box {
+    max-width: 400px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.ab-title {
+    color: globals.$text-color;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20pt;
+    margin-bottom: 5px;
+}
+
+.ab-description {
+    color: globals.$text-color;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ab-avatar {
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    transition: all 300ms ease;
+}
+
+.ab-avatar:hover {
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 2px 5px 20px 0px black;
+}

@@ -6,7 +6,6 @@
     display: flex;
     position: relative;
     bottom: 0;
-    height: 150px;
     justify-content: center;
 }
 
@@ -21,7 +20,7 @@
     font-family: 'Fredoka', sans-serif;
 }
 
-.footer-left a, .footer-right a {
+.footer-left p, .footer-right p {
   text-decoration: none;
   color: globals.$text-color;
   width: fit-content;
@@ -33,7 +32,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.footer-left a:hover, .footer-right a:hover {
+.footer-left p:hover, .footer-right p:hover {
   background-size: 100% 3px, 100% 3px;
   background-image: linear-gradient(0deg, globals.$middleground, globals.$middleground);
   transition: background-size 300ms ease-in-out;
@@ -43,4 +42,23 @@
     fill: globals.$background;
     background-color: globals.$foreground;
     display: block;
+}
+
+.ft-copyright {
+  background-color: globals.$foreground;
+  color: globals.$text-color;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.ft-copyright a {
+  color: globals.$text-color;
+  text-decoration: none;
+  transition: all 100ms ease;
+}
+
+.ft-copyright a:hover {
+  color: globals.$middleground;
+  text-decoration: underline;
 }
